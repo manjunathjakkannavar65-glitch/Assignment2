@@ -22,6 +22,7 @@ public class CreateProjEmpAssignProToEmp extends BaseClass {
 	@Test
 	public void createProjAndEmp() throws EncryptedDocumentException, IOException, InterruptedException {
 
+		System.out.println("Hi");
 		HomePage hp = new HomePage(driver);
 		hp.getProjectsLink().click();
 		ExcelUtility excutil = new ExcelUtility();
