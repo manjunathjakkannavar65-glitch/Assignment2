@@ -80,9 +80,6 @@
 			<version>2.18.0</version>
 			<scope>compile</scope>
 		</dependency>
-
-		<!-- Source:
-		https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>

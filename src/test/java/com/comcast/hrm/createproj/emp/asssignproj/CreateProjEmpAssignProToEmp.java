@@ -23,6 +23,7 @@ public class CreateProjEmpAssignProToEmp extends BaseClass {
 	public void createProjAndEmp() throws EncryptedDocumentException, IOException, InterruptedException {
 
 		System.out.println("Hi");
+		System.out.println("Hi");
 		HomePage hp = new HomePage(driver);
 		hp.getProjectsLink().click();
 		ExcelUtility excutil = new ExcelUtility();
@@ -47,6 +48,7 @@ public class CreateProjEmpAssignProToEmp extends BaseClass {
 		else {
 			DriverManager.getTest().log(Status.FAIL, "project not created");
 		}
+		System.out.println("hi");
 
 		hp.getEmployeesLink().click();
 
